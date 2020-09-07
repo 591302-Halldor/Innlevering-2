@@ -5,20 +5,23 @@ import static javax.swing.JOptionPane.showInputDialog;
 public class Oppgave6 {
 	 	
 		public static void main(String[] args) {
+			int i = 1;
+			int b = 1;
 			String tall1 = showInputDialog("tall :");
 			int a = Integer.parseInt ( tall1 );
-		if (a>0) { 	
-		for (int i=a; i>0 ;) {
-			
+		 	
+			while (a>=i) {
+				b=i*b;
+				i=i+1;
 
-			int svar = a*i;
-			System.out.println(svar);
-			i=i-1;
+		
+			
 		}
+			System.out.println(b);
 		}
 		
 
 		}
 			 
-	 }
+	 
 

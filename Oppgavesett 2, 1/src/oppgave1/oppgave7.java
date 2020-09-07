@@ -10,6 +10,7 @@ public class oppgave7 {
 			String tall = showInputDialog("tall :");
 			double a = Integer.parseInt ( tall );
 			if (a>0 || a<100) {
+
 				if (90<=a && a<=100)
 				{System.out.println("A");}
 				if (80<=a && a<=89)
